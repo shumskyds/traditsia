@@ -1,0 +1,18 @@
+.mech-way {
+    &__text-wrapper {
+        margin-bottom: 20px;
+    }
+    &__list {
+        color: $decoration-color;
+    }
+    &__item {
+        margin-bottom: 10px;
+    }
+    &__item-text {
+        color: #000000;
+    }
+    &__link {
+        color: $link-color-main;
+        font-weight: 700;
+    }
+}

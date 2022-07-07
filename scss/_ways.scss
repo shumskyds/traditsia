@@ -1,0 +1,29 @@
+.ways {
+    &__title {
+        margin-bottom: 12px;
+    }
+    &__text {
+        margin-bottom: 20px;
+    }
+    &__blockquote-wrapper {
+        background-color: #F3F3F3;
+        padding: 20px;
+        display: flex;
+        &::before {
+            content: '';
+            background-image: url(../img/quote.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            min-width: 61px;
+            height: 41px;
+            margin-right: 20px;
+        }
+    }
+    &__blockquote {
+        color: $decoration-color;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 15px;
+        max-width: 720px;
+    }
+}

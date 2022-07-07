@@ -1,0 +1,17 @@
+.metal-specs {
+    &__list {
+        color: $decoration-color;
+        margin-bottom: 25px;
+    }
+    &__item {
+        margin-bottom: 15px;
+    }
+    &__item-text {
+        @include text-general;
+        color: #000000;
+    }
+    &__img-wrapper {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}

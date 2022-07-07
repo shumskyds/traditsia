@@ -1,0 +1,19 @@
+.content {
+    &__title {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    &__list {
+        color: $text-color-main;
+    }
+    &__item {
+        margin-bottom: 10px;
+    }
+    &__link {
+        text-decoration: none;
+        color: $link-color-main;
+        &:hover {
+            color: $link-color-hover;
+        }
+    }
+}

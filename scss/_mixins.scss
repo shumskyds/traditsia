@@ -1,0 +1,14 @@
+@mixin title-general {
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+@mixin text-general {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: $text-color-main;
+}

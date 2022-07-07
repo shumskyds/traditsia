@@ -1,0 +1,12 @@
+.delta {
+    &__video {
+        display: block;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__iframe {
+        max-width: 100%;
+    }
+}
